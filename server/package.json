@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rjsf/bootstrap-4": "^5.24.11",
+    "@rjsf/core": "^5.24.11",
+    "@rjsf/validator-ajv8": "^5.24.11",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "bootstrap": "^5.3.6",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "file-saver": "^2.0.5",
+    "mongoose": "^8.15.2"
+  }
+}

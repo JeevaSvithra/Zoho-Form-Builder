@@ -1,0 +1,22 @@
+{
+    "title": "User Registration",
+    "type": "object",
+    "required": ["name", "email", "age"], 
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Full Name"
+      },
+      "email": {
+        "type": "string",
+        "format": "email",
+        "title": "Email"
+      },
+      "age": {
+        "type": "integer",
+        "minimum": 18,
+        "title": "Age"
+      }
+    }
+  }
+  
